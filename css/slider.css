@@ -1,0 +1,182 @@
+/* --- BANNER SLIDER --- */
+
+.slider-arrow {
+	position: absolute;
+	z-index: 100;
+	bottom: 80px;
+	left: 17.5%;
+	cursor: pointer;
+}
+
+.slider-arrow--left {
+	transition: all 0.75s;
+}
+
+.slider-arrow--right {
+	margin-left: 90px;
+	transition: all 0.5s;
+}
+
+.slider-arrow--left:hover, 
+.slider-arrow--right:hover {
+	transform: scale(1.25);
+	filter: brightness(1.25);
+}
+
+
+
+/* --- NEWS SLIDER --- */
+
+.swiper {
+	margin-top: -100px;
+}
+
+.swiper-wrapper {
+    margin-top: 100px;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+	width: 62px;
+	height: 39px;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+	top: 50px;
+	transition: all 0.5s;
+}
+
+.swiper-button-prev {
+	right: 105px;
+	left: unset;
+}
+
+.swiper-button-next {
+    right: 0;
+	left: unset;
+}
+
+.swiper-button-prev:hover, 
+.swiper-button-next:hover {
+	transform: scale(1.1);
+	filter: brightness(1.25);
+}
+
+.swiper-button-prev:after, 
+.swiper-button-next:after {
+	content: unset;
+}
+
+
+
+@media (max-width: 1600px) {
+	
+	.slider-arrow {
+		bottom: 85px;
+	}
+	
+}
+/* ↑↑↑ 1600px ↑↑↑ */
+
+
+
+@media (max-width: 1024px) {
+	
+	.slider-arrow {
+		bottom: 30px;
+	}
+		
+}
+/* ↑↑↑ 1024px ↑↑↑ */
+
+
+
+@media (max-width: 768px) {
+
+	.slider-arrow {
+		bottom: 23px;
+	}
+
+}
+/* ↑↑↑ 768px ↑↑↑ */
+
+
+
+@media (max-width: 480px) {
+	
+	.slider-arrow {
+		bottom: 40px;
+		width: 39px;
+		height: 21px;
+	}
+	
+	
+	.swiper {
+		margin-top: unset;
+	}
+
+	.swiper-wrapper {
+		margin-top: unset;
+	}
+	
+	.swiper {
+		margin-bottom: -100px;
+	}
+
+	.swiper-wrapper {
+		margin-bottom: 100px;
+	}
+	
+	.swiper-button-prev, 
+	.swiper-button-next {
+		top: unset;
+		bottom: 60px;
+	}
+	
+	.swiper-button-prev {
+		left: 30%;
+	}
+
+	.swiper-button-next {
+		right: 30%;
+	}
+
+}
+/* ↑↑↑ 480px ↑↑↑ */
+
+
+
+@media (max-width: 430px) {
+
+	.slider-arrow {
+		bottom: 30px;
+	}
+
+}
+/* ↑↑↑ 430px ↑↑↑ */
+
+
+
+@media (max-width: 375px) {
+	
+	.slider-arrow {
+		bottom: 22px;
+	}
+	
+}
+/* ↑↑↑ 375px ↑↑↑ */
+
+
+@media (max-width: 320px) {
+	
+	.swiper-button-prev {
+		left: 20%;
+	}
+
+	.swiper-button-next {
+		right: 20%;
+	}
+	
+}
+/* ↑↑↑ 320px ↑↑↑ */

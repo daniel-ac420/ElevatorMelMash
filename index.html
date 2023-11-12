@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ЭММ</title>
+	
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+	
+	<!--- CSS --->
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/slick.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	
+	<div class="wrapper-height">
+		
+		<header class="header">
+			<div class="header__top">
+				<div class="wrapper">
+					<div class="header__top-inner">
+						<div class="mobile-menu-button" title="Открыть меню">
+						</div>
+						
+						<a class="logo" href="#">
+							<img class="logo__image" src="images/header/logo/logo-7282306192.png" alt="Логотип" title="ЭлеваторМельМаш">
+						</a>
+						
+						<div class="header__top-inner-items">
+							<div class="header__top-inner-item">
+								<nav class="menu__navigation">
+									<ul class="menu__list">
+										<li class="menu__item">
+											<a class="menu__link" href="#" title="О компании">
+												О компании
+											</a>
+										</li>
+										<li class="menu__item">
+											<a class="menu__link" href="#" title="Вакансии">
+												Вакансии
+											</a>
+										</li>
+										<li class="menu__item">
+											<a class="menu__link" href="#" title="Новости">
+												Новости
+											</a>
+										</li>
+										<li class="menu__item">
+											<a class="menu__link" href="#" title="Контакты">
+												Контакты
+											</a>
+										</li>
+									</ul>
+								</nav>
+
+								<div class="schedule">
+									пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной
+								</div>
+							</div>
+
+							<div class="header__top-inner-item header__top-inner-item--email">
+								<a class="email" href="mailto:sale@semm.ru" title="E-mail">
+									sale@semm.ru
+								</a>
+							</div>
+
+							<div class="header__top-inner-item">
+								<div class="lang-switcher-box">
+									<div class="lang-switcher">
+										<button class="lang-switcher__button lang-switcher__button--active" id="lang-switcher--ru" type="button" title="RU">
+											Ru
+										</button>
+										<div class="divider">
+										</div>
+										<button class="lang-switcher__button lang-switcher__button--unactive" id="lang-switcher--en" type="button" title="EN">
+											En
+										</button>
+									</div>
+
+									<div class="select" data-state="">
+										<div class="select__title" data-default="Option 0">Выбор языка</div>
+										<div class="select__content">
+											<input id="Select0" class="select__input" type="radio" name="Select" checked>
+											<label for="Select0" class="select__label">Русский</label>
+
+											<input id="Select0" class="select__input" type="radio" name="Select" checked>
+											<label for="Select0" class="select__label select__label--current" title="Русский">RU</label>
+
+											<input id="Select1" class="select__input" type="radio" name="Select">
+											<label for="Select1" class="select__label" title="Английский">EN</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="phone">
+									<a class="phone__link" href="tel:+88613863403">8 (86138) 6-34-03</a>, 
+									<a class="phone__link" href="tel:+88613863406">6-34-06</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="wrapper">
+					<nav class="menu__catalog">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="#" title="Элеваторное оборудование">
+									Элеваторное оборудование
+								</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#" title="Котлы">
+									Котлы
+								</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#" title="Металлоконструкции">
+									Металлоконструкции
+								</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#" title="Услуги">
+									Услуги
+								</a>
+							</li>
+							
+							<li class="menu__item">
+								<button class="search-button" type="submit" title="Поиск по сайту">
+								</button>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="banner">
+				<div class="slider">
+					<div class="slider__item">
+						<div class="wrapper">
+							<div class="slider__item-inner">
+								<div class="title banner__title" title="Элеватормельмаш">
+									Элеватормельмаш
+								</div>
+
+								<p class="subtitle">
+									Крупнейший поставщик продукции для агропромышленного комплекса России и ближнего зарубежья
+								</p>
+
+								<div class="slider__item-counter">
+									01
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="slider__item">
+						<div class="wrapper">
+							<div class="slider__item-inner">
+								<div class="title banner__title" title="Элеватормельмаш">
+									Элеватормельмаш
+								</div>
+
+								<p class="subtitle">
+									Крупнейший поставщик продукции для агропромышленного комплекса России и ближнего зарубежья
+								</p>
+
+								<div class="slider__item-counter">
+									02
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="slider__item">
+						<div class="wrapper">
+							<div class="slider__item-inner">
+								<div class="title banner__title" title="Элеватормельмаш">
+									Элеватормельмаш
+								</div>
+
+								<p class="subtitle">
+									Крупнейший поставщик продукции для агропромышленного комплекса России и ближнего зарубежья
+								</p>
+
+								<div class="slider__item-counter">
+									03
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">	
+			<section class="section section--main">
+				<div class="wrapper">
+					<h1 class="title main__title" title="Продукция для аграрной промышленности	">
+						Продукция для аграрной промышленности
+					</h1>
+
+					<p class="section__description">
+						АО&nbsp;&laquo;Элеватормельмаш&raquo; г. Кропоткин на&nbsp;протяжении 75&nbsp;лет является крупнейшим поставщиком продукции для агропромышленного комплекса России и&nbsp;ближнего зарубежья.<br>
+						Предприятие выпускает большой спектр оборудования в&nbsp;которые входит: элеваторное оборудование, промышленные котлы, бетоносмесители, металлоконструкции и&nbsp;металлические формы для свай.
+					</p>
+					<p class="section__description">
+						Собственное конструкторское бюро позволяет разрабатывать новую, а&nbsp;так&nbsp;же регулярно улучшать и&nbsp;модернизировать существующую продукцию.
+					</p>
+
+					<div class="results">
+						<div class="results__item">
+							<div class="results__num">
+								75&nbsp;<span class="results__num-sub">лет</span>
+							</div>
+							<div class="results__description">
+								опыта на рынке агропромышленного комплекса
+							</div>
+						</div>
+
+						<div class="results__item">
+							<div class="results__num">
+								<span class="results__num-sub">></span>&nbsp;200
+							</div>
+							<div class="results__description">
+								видов мельнично-элеваторного оборудования
+							</div>
+						</div>
+
+						<div class="results__item">
+							<div class="results__num">
+								25
+							</div>
+							<div class="results__description">
+								видов котлов промышленного назначения
+							</div>
+						</div>
+
+						<div class="results__item">
+							<div class="results__num">
+								20
+							</div>
+							<div class="results__description">
+								почвообрабатывающей техники
+							</div>
+						</div>
+
+						<div class="results__item">
+							<div class="results__num">
+								35
+							</div>
+							<div class="results__description">
+								регионов поставки продукции
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section--catalog">
+				<div class="wrapper">
+					<h2 class="title section__title" title="Элеваторное оборудование">
+						Элеваторное оборудование
+					</h2>
+
+					<div class="catalog">
+						<a class="catalog__item" href="#" title="Автомобилеразгрузчики">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle145.png" alt="Автомобилеразгрузчики">
+							<h3 class="catalog__item-title">
+								Автомобиле разгрузчики
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Конвейеры">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle147.png" alt="Конвейеры">
+							<h3 class="catalog__item-title">
+								Конвейеры
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Пробоотборники">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle149.png" alt="Пробоотборники">
+							<h3 class="catalog__item-title">
+								Пробоотборники
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Циклоны">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle151.png" alt="Циклоны">
+							<h3 class="catalog__item-title">
+								Циклоны
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Нории">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle153.png" alt="Нории">
+							<h3 class="catalog__item-title">
+								Нории
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Переработка маслосемян">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle155.png" alt="Переработка маслосемян">
+							<h3 class="catalog__item-title">
+								Переработка маслосемян
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Клапаны">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle157.png" alt="Клапаны">
+							<h3 class="catalog__item-title">
+								Клапаны
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Задвижки реечные">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle159.png" alt="Задвижки реечные">
+							<h3 class="catalog__item-title">
+								Задвижки реечные
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Тележка сбрасывающая">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle161.png" alt="Тележка сбрасывающая">
+							<h3 class="catalog__item-title">
+								Тележка сбрасывающая
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Шлюзовый затвор">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle162.png" alt="Шлюзовый затвор">
+							<h3 class="catalog__item-title">
+								Шлюзовый затвор
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Затвор огнепреграждающий">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle165.png" alt="Затвор огнепреграждающий">
+							<h3 class="catalog__item-title">
+								Затвор огнепреграждающий
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Устройство загрузки вагонов">
+							<img class="catalog__item-image" src="images/catalog-main/img/Rectangle166.png" alt="Устройство загрузки вагонов">
+							<h3 class="catalog__item-title">
+								Устройство загрузки вагонов
+							</h3>
+						</a>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="section section--catalog">
+				<div class="wrapper">
+					<h2 class="title section__title" title="Другое оборудование">
+						Другое оборудование
+					</h2>
+
+					<div class="catalog catalog--other">
+						<a class="catalog__item" href="#" title="Котлы">
+							<img class="catalog__item-image" src="images/catalog-other/img/Rectangle190.png" alt="Котлы">
+							<h3 class="catalog__item-title">
+								Котлы
+							</h3>
+						</a>
+
+						<a class="catalog__item" href="#" title="Дополнительное оборудование">
+							<img class="catalog__item-image" src="images/catalog-other/img/Rectangle192.png" alt="Дополнительное оборудование">
+							<h3 class="catalog__item-title">
+								Дополнительное оборудование
+							</h3>
+						</a>
+					</div>
+
+					<p class="section__description">
+						Продукция АО&nbsp;&laquo;Элеватормельмаш&raquo; используется на&nbsp;предприятиях Юга, Поволжья и&nbsp;Центральной России, а&nbsp;так&nbsp;же Украины, Казахстана, Молдовы и&nbsp;Белоруссии. Большое количество успешных партнерских отношений подтверждает качество продукции и&nbsp;предоставляемых услуг по&nbsp;установке оборудования и&nbsp;его обслуживанию.
+					</p>		
+					<p class="section__description">
+						В&nbsp;2013 году была проведена крупная модернизация оборудования. Введены в&nbsp;эксплуатацию: станок гидроабразивной резки, четырехволковая машина с&nbsp;ЧПУ и&nbsp;листогибочный станок с&nbsp;ЧПУ.Это сразу позволило на&nbsp;порядок поднять качество выпускаемой продукции , снизить трудоемкость процессов, а&nbsp;так&nbsp;же увеличить ассортимент выпускаемой продукции.
+					</p>
+				</div>
+			</section>
+
+			<section class="section section--catalog">
+				<div class="wrapper">
+					<h2 class="title section__title" title="Услуги компании">
+						Услуги компании
+					</h2>
+
+					<div class="catalog catalog--services">
+						<div class="services__item">
+							<a class="catalog__item" href="#" title="Плазменная резка">
+								<img class="catalog__item-image" src="images/services/Rectangle169.png" alt="Плазменная резка">
+								<div class="services__item-counter">
+									01
+								</div>
+							</a>
+
+							<h3 class="services__item-title" title="Плазменная резка">
+								<a href="#">
+									Плазменная резка
+								</a>
+							</h3>
+
+							<p class="section__description section__description--services">
+								Компания АО&nbsp;&laquo;Элеватормельмаш&raquo; осуществляет литейное производство черных и&nbsp;цветных металлов на&nbsp;профессиональной основе и&nbsp;производит литые детали из&nbsp;чугуна и&nbsp;цветных сплавов по&nbsp;эскизу заказчика.
+							</p>
+						</div>
+
+						<div class="services__item">
+							<a class="catalog__item" href="#" title="Гидроабразивная резка">
+								<img class="catalog__item-image" src="images/services/Rectangle170.png" alt="Гидроабразивная резка">
+								<div class="services__item-counter">
+									02
+								</div>
+							</a>
+
+							<h3 class="services__item-title" title="Гидроабразивная резка">
+								<a href="#">
+									Гидроабразивная резка
+								</a>
+							</h3>
+
+							<p class="section__description section__description--services">
+								Уникальная технология, которая может производить резку различных материалов, в&nbsp;том числе стекла, пластика, металла и&nbsp;многих других.
+							</p>
+						</div>
+
+						<div class="services__item">
+							<a class="catalog__item" href="#" title="Изготовление изделий на листогибочном станке с ЧПУ">
+								<img class="catalog__item-image" src="images/services/Rectangle171.png" alt="Изготовление изделий на листогибочном станке с ЧПУ">
+								<div class="services__item-counter">
+									03
+								</div>
+							</a>
+
+							<h3 class="services__item-title" title="Изготовление изделий на листогибочном станке с ЧПУ">
+								<a href="#">
+									Изготовление изделий на листогибочном станке с ЧПУ
+								</a>
+							</h3>
+
+							<p class="section__description section__description--services">
+								Позволяет изготавливать сложные профили, элементов кровли, оконные отливы и&nbsp;т.д. Такой станок незаменим при любых гибочных работах.
+							</p>
+						</div>
+
+						<div class="services__item">
+							<a class="catalog__item" href="#" title="Производство металлоконструкций">
+								<img class="catalog__item-image" src="images/services/Rectangle172.png" alt="Производство металлоконструкций">
+								<div class="services__item-counter">
+									04
+								</div>
+							</a>
+
+							<h3 class="services__item-title" title="Производство металлоконструкций">
+								<a class="services__item-link" href="#">
+									Производство металлоконструкций
+								</a>
+							</h3>
+
+							<p class="section__description section__description--services">
+								Металлоконструкции изготавливаются по&nbsp;индивидуальным параметрам с&nbsp;учетом всех пожеланий заказчика
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section--catalog">
+				<div class="wrapper">
+					<h2 class="title section__title" title="Новости компании">
+						Новости компании
+					</h2>
+
+					<div class="catalog catalog--news">
+						<div class="news-slider swiper">
+							<div class="blog__navigation">
+								<div class="swiper-button-prev" title="Предыдущие новости">
+									<img src="images/news/icons/news-arrow-left.svg" alt>
+								</div>
+								<div class="swiper-button-next" title="Следующие новости">
+									<img src="images/news/icons/news-arrow-right.svg" alt>
+								</div>
+							</div>
+							
+							<div class="swiper-wrapper">
+								<div class="news-slider__item swiper-slide">
+									<a class="catalog__item" href="#" title="Запасные части для пробоотборника">
+										<img class="catalog__item-image" src="images/news/Rectangle173.png" alt="Запасные части для пробоотборника">
+									</a>
+
+									<h3 class="services__item-title" title="Запасные части для пробоотборника">
+										<a href="#">
+											Запасные части для пробоотборника
+										</a>
+									</h3>
+
+									<p class="publication-date">
+										14.10.2020
+									</p>
+
+									<p class="section__description section__description--services">
+										Заводом Элеватормельмаш (ЭММ) изготовлены и&nbsp;подготовлены к&nbsp;отгрузке запасные отборники для пробоотборника типа У1-УПП для Заказчика из&nbsp;Саратовской области. 
+									</p>
+								</div>
+
+								<div class="news-slider__item swiper-slide">
+									<a class="catalog__item" href="#" title="Фузоловушка для расширения производства">
+										<img class="catalog__item-image" src="images/news/Rectangle174.png" alt="Фузоловушка для расширения производства">
+									</a>
+
+									<h3 class="services__item-title" title="Фузоловушка для расширения производства">
+										<a href="#">
+											Фузоловушка для расширения производства
+										</a>
+									</h3>
+
+									<p class="publication-date">
+										14.10.2020
+									</p>
+
+									<p class="section__description section__description--services">
+										Для увеличения объемов выпускаемой продукции и&nbsp;в&nbsp;целях модернизации производства для одного из&nbsp;маслобойных предприятий республики Башкортостан завод Элеватормельмаш изготовил и&nbsp;отгрузил очередную машину типа МФС.
+									</p>
+								</div>
+
+								<div class="news-slider__item swiper-slide">
+									<a class="catalog__item" href="#" title="Произведена мультимодальная отгрузка котлов">
+										<img class="catalog__item-image" src="images/news/Rectangle175.png" alt="Произведена мультимодальная отгрузка котлов">
+									</a>
+
+									<h3 class="services__item-title" title="Произведена мультимодальная отгрузка котлов">
+										<a href="#">
+											Произведена мультимодальная отгрузка котлов
+										</a>
+									</h3>
+
+									<p class="publication-date">
+										14.10.2020
+									</p>
+
+									<p class="section__description section__description--services">
+										Мы&nbsp;произвели и&nbsp;отгрузили очередную партию промышленных котлов. Данная отгрузка была необчной, а&nbsp;мультимодальная (авто-, ж.д. контейнер, морской паром).
+									</p>
+								</div>
+
+								<div class="news-slider__item swiper-slide">
+									<a class="catalog__item" href="#" title="Запасные части для пробоотборника">
+										<img class="catalog__item-image" src="images/news/Rectangle173.png" alt="Запасные части для пробоотборника">
+									</a>
+
+									<h3 class="services__item-title" title="Запасные части для пробоотборника">
+										<a href="#">
+											Запасные части для пробоотборника
+										</a>
+									</h3>
+
+									<p class="publication-date">
+										14.10.2020
+									</p>
+
+									<p class="section__description section__description--services">
+										Заводом Элеватормельмаш (ЭММ) изготовлены и&nbsp;подготовлены к&nbsp;отгрузке запасные отборники для пробоотборника типа У1-УПП для Заказчика из&nbsp;Саратовской области. 
+									</p>
+								</div>
+
+								<div class="news-slider__item swiper-slide">
+									<a class="catalog__item" href="#" title="Фузоловушка для расширения производства">
+										<img class="catalog__item-image" src="images/news/Rectangle174.png" alt="Фузоловушка для расширения производства">
+									</a>
+
+									<h3 class="services__item-title" title="Фузоловушка для расширения производства">
+										<a href="#">
+											Фузоловушка для расширения производства
+										</a>
+									</h3>
+
+									<p class="publication-date">
+										14.10.2020
+									</p>
+
+									<p class="section__description section__description--services">
+										Для увеличения объемов выпускаемой продукции и&nbsp;в&nbsp;целях модернизации производства для одного из&nbsp;маслобойных предприятий республики Башкортостан завод Элеватормельмаш изготовил и&nbsp;отгрузил очередную машину типа МФС.
+									</p>
+								</div>
+
+								<div class="news-slider__item swiper-slide">
+									<a class="catalog__item" href="#" title="Произведена мультимодальная отгрузка котлов">
+										<img class="catalog__item-image" src="images/news/Rectangle175.png" alt="Произведена мультимодальная отгрузка котлов">
+									</a>
+
+									<h3 class="services__item-title" title="Произведена мультимодальная отгрузка котлов">
+										<a href="#">
+											Произведена мультимодальная отгрузка котлов
+										</a>
+									</h3>
+
+									<p class="publication-date">
+										14.10.2020
+									</p>
+
+									<p class="section__description section__description--services">
+										Мы&nbsp;произвели и&nbsp;отгрузили очередную партию промышленных котлов. Данная отгрузка была необчной, а&nbsp;мультимодальная (авто-, ж.д. контейнер, морской паром).
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="section section--form">
+				<div class="wrapper">
+					<h2 class="title section__title form__title" title="Свяжитесь с нами">
+						Свяжитесь с нами
+					</h2>
+
+					<form class="form">
+						<fieldset class="fields__group">
+							<fieldset class="fieldset">
+								<input class="input" placeholder="ФИО" name="name" type="text" title="ФИО">
+								<input class="input" placeholder="Телефон" name="phone" type="number" title="Телефон">
+								<input class="input" placeholder="E-mail" name="email" type="email">
+							</fieldset>
+
+							<textarea class="textarea" placeholder="Ваш запрос"></textarea>
+						</fieldset>
+
+						<p class="section__description consent">
+							Нажимая на кнопку, вы даёте согласие на обработку персональных данных
+						</p>
+
+						<button class="button form__button" type="submit" title="Отправить">
+							Отправить
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="wrapper">
+					<div class="footer__top-inner">
+						<div class="footer__top-item">
+							<a class="logo" href="#">
+								<img class="logo__image" src="images/footer/logo/logo-7282306192.png" alt="Логотип" title="ЭлеваторМельМаш">
+							</a>
+						</div>
+
+						<div class="footer__top-item">
+							<nav class="menu__navigation">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="О компании">
+											О компании
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Каталог продукции">
+											Каталог продукции
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Услуги">
+											Услуги
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Вакансии">
+											Вакансии
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Новости">
+											Новости
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Контакты">
+											Контакты
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="footer__top-item">
+							<nav class="menu__navigation">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Элеваторное оборудование">
+											Элеваторное оборудование
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Котлы">
+											Котлы
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Металлоконструкции">
+											Металлоконструкции
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Запчасти на элеваторное оборудование">
+											Запчасти на элеваторное оборудование
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Трубы дымовые">
+											Трубы дымовые
+										</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="#" title="Водонапорные башни">
+											Водонапорные башни
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+
+						<div class="footer__top-item">
+						<nav class="menu__navigation">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a class="menu__link" href="#" title="Котел-утилизатор">
+										Котел-утилизатор
+									</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="#" title="Скреперный транспортёр для уборки навоза">
+										Скреперный транспортёр для уборки навоза
+									</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="#" title="Планетарный бетоносмеситель">
+										Планетарный бетоносмеситель
+									</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="#" title="Подъёмники">
+										Подъёмники
+									</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="#" title="Тележки">
+										Тележки
+									</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="#" title="Неликвиды">
+										Неликвиды
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer__divider">
+			</div>
+
+			<div class="footer__middle">
+				<div class="wrapper">
+					<address class="contacts">
+						<div class="contacts__item">
+							<div class="contact__icon contact__icon--place">
+							</div>
+
+							<p class="section__description">
+								Адрес: 352382, Краснодарский край, г. Кропоткин, ул. Пушкина, 79
+							</p>
+						</div>
+
+						<div class="contacts__item">
+							<div class="contact__icon contact__icon--phone">
+							</div>
+							
+							<div>
+								<p class="section__description" title="Телефон">
+									Тел./Факс: <a class="footer__menu-link" href="tel:+88613863403">8 (86138) 6-34-03</a>, <a class="footer__menu-link" href="tel:+88613863406">6-34-06</a>
+								</p>
+								<p class="section__description" title="E-mail">
+									E-mail: <a class="footer__menu-link" href="mailro:sale@semm.ru">sale@semm.ru</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="contacts__item">
+							<div class="contact__icon contact__icon--schedule">
+							</div>
+
+							<p class="section__description">
+								Режим работы: пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной
+							</p>
+						</div>
+					</address>
+				</div>
+			</div>
+			
+			<div class="footer__divider" title="Закрыть меню">
+			</div>
+
+			<div class="footer__bottom">
+				<div class="wrapper">
+					<div class="footer__bottom-inner">
+						<a class="footer__menu-link copyright" href="#0" title="Copyright">
+							&#169;&nbsp;АО&nbsp;&laquo;Элеватормельмаш&raquo; 2014&nbsp;г.
+						</a>
+
+						<a class="footer__menu-link" href="https://www.web-canape.ru/" target="_blank" title="Разработка и маркетинг - WebCanape">
+							Разработка и маркетинг - WebCanape
+						</a>
+
+						<a class="footer__menu-link" href="#" target="_blank" title="Политика конфиденциальности">
+							Политика конфиденциальности
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<aside class="mobile-menu">
+			<div class="button-close" title="Закрыть меню">
+			</div>
+			
+			<nav class="menu__navigation">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a class="menu__link" href="#" title="О компании">
+							О компании
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#" title="Вакансии">
+							Вакансии
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#" title="Новости">
+							Новости
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#" title="Контакты">
+							Контакты
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="phone">
+				<a class="phone__link" href="tel:+88613863403">8 (86138) 6-34-03</a>,
+				<a class="phone__link" href="tel:+88613863406">6-34-06</a>
+			</div>
+			
+			<a class="email" href="mailto:sale@semm.ru" title="E-mail">
+				sale@semm.ru
+			</a>
+
+			<div class="schedule">
+				пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной
+			</div>
+		</aside>
+
+	</div>
+	
+
+	<!-- ↓↓↓ SCRIPTS ↓↓↓ -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="js/select.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
